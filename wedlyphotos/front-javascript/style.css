@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Nanum+Gothic&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* Ocupa todo el alto de la pantalla */
+  background-color: #9EC1A3;
+  /* Color de fondo aqua */
+}
+
+.section {
+  width: 100%;
+  height: 30%;
+}
+
+.myNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.myNav img {
+  height: 60px;
+}
+
+.nav-links {
+  align-items: flex-start;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-family: "Zilla Slab", serif;
+
+}
+
+.nav-links li a:hover {
+  color: #8eb795;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text-section {
+  width: 60%;
+  padding: 20px;
+}
+
+h1 {
+  color: #252525;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #252525;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.image-section {
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: 100%;
+}
+
+
+.container2 {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  width: 60%;
+  padding: 20px;
+}
+
+.container2 .h1_2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.container2 .p_2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+
+}
+
+.social-icons2 {
+  display: flex;
+  text-align: center;
+}
+
+.social-icons2 a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social-icons2 img {
+  width: 30px;
+  height: auto;
+}
+
+.image-section2 {
+  width: 40%;
+  text-align: center;
+  margin-right: 20%;
+}
+
+.image-section2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bi {
+  color: black;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  background-color: #8eb795;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+h2 {
+  color: #1F363D;
+}
+
+.buttons {
+  background-color: #9EC1A3;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.my-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+}
+
+.button_1 {
+  background-color: #1F363D;
+}
+
+.button_2 {
+  background-color: white;
+  color: #1F363D;
+}
+
+.footer {
+  background-color: #8eb795;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 10px;
+}
+
+.footer a {
+  color: #1F363D;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.p_3 {
+  color: #1F363D;
+}
+
+
+
+/*h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+
+}
+
+.one_p {
+  text-align: center;
+  font-size: 15px;
+}*/
+
+@media screen and (max-width: 668px) {
+  .nav-links {
+    display: inline-block;
+  }
+
+  .section img {
+    width: 100%;
+
+  }
+
+  h1 {
+    font-family:"Zilla Slab", serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+
+  .image-section2 img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .container2 {
+    flex-direction: column;
+  }
+
+  .text-section {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 90%;
+    height: 60%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card p {
+    font-size: 20px;
+    color: #252525;
+    text-align: justify;
+
+  }
+  .card .autor{
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+.footer{
+  background-color: #9EC1A3;
+}
+.lista_footer{
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #9EC1A3;
+  font-weight: bold;
+}
+}
